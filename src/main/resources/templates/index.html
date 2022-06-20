@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/senderComplexMail}" method="post">
+    From:<input type="text" name="from">
+    To:<input type="text" name="to">
+    Subject:<input type="text" name="subject">
+    Text:<input type="text" name="text">
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
